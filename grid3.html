@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>使用Bootstrap3.0固定布局的实例</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<!-- Bootstrap -->
+	<link href="public/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- <link href="public/bootstrap/css/bootstarp-responsive.min.css" rel="stylesheet"> -->
+</head>
+<body>
+	<div class="container">
+		<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+		<div class="row">
+		  <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		</div>
+
+		<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+		<div class="row">
+		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+		</div>
+
+		<!-- Columns are always 50% wide, on mobile and desktop -->
+		<div class="row">
+		  <div class="col-xs-6">.col-xs-6</div>
+		  <div class="col-xs-6">.col-xs-6</div>
+		</div>
+
+		<div class="table-responsive">
+			<table class="table table-hover">
+				<tr><td>Name</td></tr>
+				<tr><td>Address</td></tr>
+				<tr><td>Mobile No</td></tr>
+			</table>
+		</div>
+	</div>
+
+	
+
+	<ins>This line of text is <i>meant</i> to be treated as an <strong>addition</strong> to the document.</ins>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="http://code.jquery.com/jquery.js"></script> -->
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="public/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
